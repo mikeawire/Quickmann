@@ -1,0 +1,434 @@
+body {
+background:url('/images/bg-2.jpeg');
+background-repeat: no-repeat ;background-size: cover;
+background-attachment: fixed;
+}
+
+
+.home{
+    opacity: 0.9;
+    margin-top: -25px;
+    min-height: 100vh;
+    background:whitesmoke;
+    padding: 25px;
+}
+.home .card
+{
+
+    padding:15px;
+ background-color: #fff;
+ min-height: 100vh;
+
+  
+}
+.home .main_menu .card
+
+{
+min-height: 100px;
+text-align: center;
+margin-bottom: 10px;
+margin-top: 10px;
+}
+.home .main_menu .card i
+
+{
+font-size: 44px;
+}
+
+.home .main_menu .card h1
+
+{
+font-size: 14px;
+}
+
+
+.home .menu
+{
+    background:#fff;
+    padding:30px;
+    border-radius: 10px;
+    opacity:1;
+    border: 1px solid #f1f1f1;
+}
+.home .menu a
+
+{
+    color:#000;
+}
+
+.home .menu p
+
+{
+    color:#000;
+}
+
+.home .regno h6
+{
+    color:orangered;
+    line-height: 1.2em;
+    font-family: unset;
+    font-size:18px;;
+}
+.home table
+{
+    background-color: navajowhite;
+}
+
+.home table td
+{
+   font-weight: bold;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.home .table-responsive  h5
+{
+  color: orangered;
+  margin-bottom: 20px;;
+}
+
+.home table .location
+{
+    background-color: purple;
+    color: white;
+}
+
+.home table .p_price
+{
+    background-color:purple;
+    color: white;
+}
+
+.home table .p_type
+{
+    background-color:purple;
+    color: white;
+}
+
+.home .regno h4
+{
+    color: darkred;
+    line-height: 1.2em;
+    font-family: unset;
+    font-size:28px;
+    margin-bottom: 20px;
+    font-style: oblique;
+}
+
+
+.home .regno h6 span
+{
+    color:olivedrab;
+    line-height: 1.2em;
+    font-family: unset;
+    font-size:14px;;
+}
+.navbar
+{
+    background:#000088;
+    opacity: 0.9;
+    z-index: 10;
+}
+.nav-lin{
+    color:#fff;
+    z-index: 10;
+}
+
+.logo{
+    width:50px;
+}
+.profile_completion
+{
+    background: floralwhite;
+    opacity: 0.8;
+    padding:20px;
+    margin-top: -40px;
+    min-height: 100vh;
+}
+
+.profile_completion h3
+{
+color: lawngreen;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: bolder;
+font-style: oblique;
+}
+
+.profile_completion p
+{
+color:darkblue;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+font-style: oblique;
+}
+
+.profile_completion input,
+.profile_completion select,
+.profile_completion textarea
+
+{
+height: 50px;
+box-sizing: border-box;
+-webkit-box-orient: block-axis;
+
+border-radius: 10px;
+}
+.profile_completion textarea:focus,
+.profile_completion input:focus,
+.profile_completion select:focus
+
+{
+height: 50px;
+box-sizing: border-box;
+-webkit-box-orient: block-axis;
+border: 0;
+border-radius: 10px;
+}
+
+
+.profile_completion button
+{
+    background: greenyellow;
+    color:#fff;
+}
+
+.profile_completion label{
+    font-style: oblique;
+    font-weight: bolder;
+}
+.changebtn
+{
+    background:#000;
+}
+
+.home .fa-edit
+{
+    color:red;
+}
+.home a{
+    color: darkolivegreen;
+}
+
+.shelter{
+    opacity: 0.9;
+    margin-top: -25px;
+    min-height: 100vh;
+    background:whitesmoke;
+    padding: 25px;
+
+    
+}
+.shelter .card{
+
+    padding: 20px;
+  
+
+    background:#fff;
+    min-height: 100vh;
+}
+.shelter p
+
+{
+  
+    font-weight: bold;
+  
+}
+.shelter span
+
+{
+
+    font-weight: lighter;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;font-style: oblique;
+}
+
+.shelter h5
+
+{
+    margin-top: 24px;;
+    color:orange;
+    font-weight: bolder;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.shelter .main
+{
+    background:#fff;
+    padding:20px;
+}
+.shelter .header1
+{
+    padding: 20px;
+    
+}
+.shelter .dro{
+
+    margin-top: 40px;
+
+
+}
+.shelter .dro h4{
+line-height: 1.5em;
+
+}
+.shelter .dro h4 a{
+   
+    font-style: italic;
+    }
+.shelter .header1 h6
+{
+    line-height: 1.4em;
+    color: lawngreen;
+    font-size: 20px;
+    font-weight: bolder;
+    
+}
+.shelter  h3
+{
+    line-height: 1.4em;
+    color: tomato;
+    font-style: italic;
+    
+}
+.p_amount
+{
+    background-color:grey;
+    font-style: 18px;
+    padding: 10px;
+    color:#fff;
+}
+.t_amount
+{
+    background-color: lawngreen;
+    padding:10px; color:#fff;
+    font-size: 18px;
+}
+.t_amount span
+{
+    color: lightcoral;
+    font-weight: bolder;
+}
+
+.unpaid
+{
+    background-color: goldenrod;
+    padding:10px; color:#fff;
+    font-size: 18px;
+}
+.upaid span
+{
+    color: lightcoral;
+    font-weight: bolder;
+}
+
+.i_payment
+{
+    background-color: skyblue;
+    padding:10px; color:#fff;
+    font-size: 18px;
+}
+.i_payment span
+{
+    color: #fff;
+    
+}
+
+
+.m_payment
+{
+    background-color: #000;
+    padding:10px; color:#fff;
+    font-size: 18px;
+}
+.m_payment span
+{
+    color:#fff;
+    
+}
+.footer
+{
+    background-color: #000088;
+    margin-top: -25px;
+    
+    padding: 10px;
+}
+.footer p{
+    color: #fff;
+    padding-top: 10px;
+   
+    text-align: center;
+}
+
+/*find property link*/
+
+.findproperty
+{
+    background-color:orangered;
+    color: papayawhip;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/*property search*/
+
+.calculator
+{
+    min-height: 100vh;
+    margin-top: -25px;
+    opacity: 0.6;
+}
+
+
+.calculator h1
+{
+    color: navy;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+.calculator  i
+{
+   color: orange;
+}
+.calculator  input
+{
+   height: 50px;
+   border: 1px solid #000;
+}
+.calculator  select
+{
+   height: 50px;
+   border: 1px solid #000;
+   padding:10px;
+}
+.calculator  label
+{
+   font-style: italic;
+   font-weight: bold;
+}
+.calculator .form-group
+{
+    padding: 20px;
+}
+
+.calculator  input
+{
+   height: 50px;
+   border: 1px solid #000;
+}
+
+.calculator  button
+{
+   background: navy;
+   color: #fff;
+   padding: 10px;
+   border-radius: 7px;
+   border: 1px solid #000;
+}
+.search_header
+{
+    background-color: purple;
+    color:#fff;
+    justify-content: space-between;
+    padding: 10px;;
+}

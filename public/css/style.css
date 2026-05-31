@@ -1,0 +1,328 @@
+body, html {
+	height: 100%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.sold_product h3
+{
+
+    color:orange;
+    padding-bottom:10px;
+      font-style:italic;
+
+}
+
+.sold_product span
+{
+
+    font-weight:bolder;
+    font-style:italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.sold_product p
+{
+
+    font-style:italic;
+    line-height:1.6em;
+
+}
+.sold_product a
+{
+
+    font-style:italic;
+    line-height:1.4em;
+
+}
+.sold_product_dp
+{
+    text-align:center;
+    padding-top:20px;
+}
+
+.sold_product .col-lg-6
+{
+
+    padding-top:40px;
+     padding-bottom:40px;
+
+}
+button {
+	outline: none !important;
+	border: none;
+	background: transparent;
+}
+
+button:hover {
+	cursor: pointer;
+}
+.container-login100-form-btn {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 20px;
+}
+.login100-form-btn {
+  font-family: Montserrat-Bold;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #fff;
+  text-transform: uppercase;
+
+  width: 100%;
+  height: 50px;
+  border-radius: 25px;
+  background:   yellowgreen;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 25px;
+  z-index:10;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.login100-form-btn:hover {
+  background: #333333;
+  border:0;
+
+}
+
+.plot label{
+    font-style: italic;
+    color:#fff;
+}
+
+.container-body
+{
+    background:0;
+    border-radius:0;
+    margin-top:-30px;
+    min-height: 600px;
+    background-size:cover;
+
+}
+.plot input
+{
+    background: #fff;
+
+    font-weight: bolder;
+
+}
+.plot input, .plot select, .plot textarea{
+  background:#f4f4f4;
+  border:0;
+}
+.plot input:focus, .plot select:focus, .plot textarea:focus
+{
+    background:#000;
+ color:#fff;
+    font-weight: bolder;
+    border:0;
+
+}
+.container-body h5{
+    color:#fff;
+}
+
+/*sell plot page */
+
+.sale_plot
+{
+  padding:20px;
+}
+
+.sale_plot h4
+{
+  color:orange;
+  padding-bottom: 10px;;
+}
+
+.sale_plot p
+{
+  color:#000;
+
+}
+
+.arriers
+{
+    background:#fff;
+    padding:20px;
+}
+
+.arriers h5
+{
+ color:orange;
+ font-weight:bolder;
+}
+
+.arriers p
+{
+line-height:1.5em;
+ font-weight:bolder;
+ font-style:italic;
+}
+.sale_plot span
+{
+  color:#000;
+  font-style: oblique;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bolder;
+}
+.sale_plot label
+
+{
+  color:#000;
+  font-style: oblique;
+}
+.sale_plot button
+{
+background: #4caf4c;;
+color:#fff;
+padding:7px;
+border-radius: 5px;
+}
+
+.sale_plot input,
+.sale_plot select
+{
+  height: 50px;
+  color:#000;
+  font-style: oblique;
+}
+
+.gobackproduct
+{
+text-align: center;
+padding: 20px;;
+}
+.gobackproduct a
+{
+  color: #f4f4f4;
+  background: black;
+  padding: 10px;
+  border-radius: 7px;
+}
+.package_page
+{
+    background: white;
+    padding: 20px;
+    opacity: 0.9;
+}
+.product_add
+
+{
+  background: white;
+
+  padding: 20px;
+}
+.product_add input,
+.product_add select
+{
+height: 50px;
+font-weight: bolder;
+font-style: oblique;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.product_add h5
+{
+  color: orange;
+  font-style: oblique;
+  font-weight: bolder;
+}
+
+.product_add label
+{
+  color:#000;
+  font-style: oblique;
+  font-weight: bolder;
+}
+
+.product_add textarea
+
+{
+
+font-weight: bolder;
+font-style: oblique;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.invoice
+{
+    background:#fff;
+}
+.inv
+{
+    color:#000;
+}
+
+
+.p_amount
+{
+    background-color:grey;
+    font-style: 18px;
+    padding: 10px;
+    color:#fff;
+}
+.t_amount
+{
+    background-color: green;
+    padding:10px; color:#fff;
+    font-size: 18px;
+}
+.t_amount span
+{
+    color: lightcoral;
+    font-weight: bolder;
+}
+
+.unpaid
+{
+    background-color: blue;
+    padding:10px; color:#fff;
+    font-size: 18px;
+}
+.upaid span
+{
+    color: rgb(243, 5, 5);
+    font-weight: bolder;
+}
+
+.i_payment
+{
+    background-color: navy;
+    padding:10px; color:#fff;
+    font-size: 18px;
+}
+.i_payment span
+{
+    color: #fff;
+
+}
+
+
+.m_payment
+{
+    background-color: #000;
+    padding:10px; color:#fff;
+    font-size: 18px;
+}
+.m_payment span
+{
+    color:#fff;
+
+}
+
+
+
